@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="ecommerce.css">
+</head>
+<body>
+    <header>
+        <div class="nav container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.hamleys.in/_nuxt/img/logo.903d661.png" class="ms-5 my-2" height="50" width="150"
+                  alt="hamleys Logo" loading="lazy" />
+            </a>           
+            <i class='bx bx-shopping-bag bx-md ms-auto me-5 my-2'  id="cart-icon"></i>
+            <div class="cart">
+                <i class='bx bx-x bx-sm' id="close-cart"></i>
+                <div class="cart-title text-center h2 fw-bold text-decoration-underline">Cart Items</div>
+                <div class="cart-content">
+
+
+                </div>
+                <div class="total-price d-flex justify-content-between my-5">
+                    <div class="total-price-title h3 fw-bold">Total Price : </div>
+                    <div class="total-price-amount fw-bold">₹ 0</div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="place-order btn btn-secondary btn-lg">Place Order</button></div>
+                </div>
+        </div>
+    </header>
+    <main>
+        <div class="container my-5">
+            <h1 class="text-center pb-5">Our Products</h1>
+            
+            <div class="box pb-5">
+            <div class="row align-items-center row-cols-1 row-cols-lg-4 row-cols-md-2 g-4" id="content">
+                
+                <div class="col">
+                  <div class="card" >
+                    <img src="https://cdn.pixelbin.io/v2/black-bread-289bfa/HrdP6X/original/hamleys-product/492409593/665/492409593-1.jpeg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Shumee Penguin</h5>
+                        <p class="card-text">₹ 500</p>
+                    </div>
+                    <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                      <img src="https://toycra.com/cdn/shop/products/Fisher-Price-Lights-Learning-Elephant-Infant-Toys-Fisher-Price-Toycra-2_644x644.jpg?v=1671119158" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Fisher-Elephant</h5>
+                          <p class="card-text">₹ 250</p>
+                      </div>
+                      <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://m.media-amazon.com/images/I/71A-WPv5q-L._SX522_.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Webby Husky Dog</h5>
+                          <p class="card-text">₹ 400</p>
+                      </div>
+                      <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://m.media-amazon.com/images/I/51AeNwFhGdL._SX522_.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Babique Unicorn</h5>
+                          <p class="card-text">₹ 260</p>
+                      </div>
+                      <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://m.media-amazon.com/images/I/51YGIaGNdsS._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Easter Bunny</h5>
+                          <p class="card-text">₹ 520</p>
+                      </div>
+                      <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://m.media-amazon.com/images/I/41uuBS46fFL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">KIONI - Rabbit </h5>
+                          <p class="card-text">₹ 200</p>
+                      </div>
+                      <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://m.media-amazon.com/images/I/31Vk-OE955L._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Honey Penguin</h5>
+                          <p class="card-text">₹ 140</p>
+                      </div>
+                      <button class="add-cart btn bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="https://m.media-amazon.com/images/I/316hTMtBTdL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Arcadia Kitten</h5>
+                          <p class="card-text">₹ 550</p>
+                      </div>
+                      <button class="add-cart btn  bx bx-cart-alt bx-md d-flex justify-content-end"></button>
+                    </div>
+                  </div>
+                
+
+            </div>
+            </div>
+        </div>
+        
+    </main>
+    <script src="ecommerce.js"></script>
+</body>
+</html>
